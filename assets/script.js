@@ -47,6 +47,7 @@ function showSlide(index) {
   });
 }
 
+
 arrowLeft.addEventListener("click", () => {
   currentSlideIndex =
     currentSlideIndex > 0 ? currentSlideIndex - 1 : slides.length - 1;
@@ -66,5 +67,4 @@ dots.forEach((dot, index) => {
   });
 });
 
-// Initialize the first slide
-showSlide(currentSlideIndex);
+

@@ -112,7 +112,6 @@ header {
 	width: 100%;
 	min-height: 470px;
 	position: relative;
-	border: 2px solid red;
 }
 .banner-img {
 	position: absolute;
