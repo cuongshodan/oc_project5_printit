@@ -112,6 +112,7 @@ header {
 	width: 100%;
 	min-height: 470px;
 	position: relative;
+	border: 2px solid red;
 }
 .banner-img {
 	position: absolute;
@@ -125,6 +126,7 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
+	cursor: pointer;
 }
 #banner .arrow_left {
 	left: 10px;
